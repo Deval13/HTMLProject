@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="auther" content="Deval">
+        <meta name="Description" content="Taco Home Page ">
+       <link rel="stylesheet" href="taco.css" type="text/css">
+       <link rel="icon" href="neon_space.jpg" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+              
+            <h1>  Contact Us  </h1>
+            <nav>
+                 <ul>
+                     <li><a href="taco.html">Home</a></li>
+ 
+                     <li><a href="#About_LTS">About LTS</a></li>
+                     
+                     <li><a href="#Menu ">Our Menu </a></li>
+
+                     <li><a href="hours.html">Shop Hours </a></li>
+                 </ul>
+                    
+                 <figure>
+                      <img src="projimage/contacttaco" alt="shop.html">
+                      <figcaption>
+                         Little Taco Shop Tacos 
+                      </figcaption>
+                 </figure>
+                 
+            </nav>
+
+        </header>
+
+         <hr>
+         
+         <main>
+              
+           <form action="https://httpbin.org/get" method="get">Information
+
+                 <fieldset>
+                       <legend>Send us a Message</legend>
+                         
+                       <label for="firstName">First Name:</label>
+                       <input type="text"  id = "firstName" name="firstName" placeholder="your name " autocomplete="on" autofocus>
+                       
+                      <br> <label for="lastname">Last Name: </label>
+                       <input type="text"   id = "lastname" name="lastname"required placeholder="your surname " autocomplete="on" >
+                         
+                       <br> <label for="eid">Email Id:  &nbsp; &nbsp;</label>
+                       <input type="email"   id = "eid" name="eid" placeholder="your email id " autocomplete="on" >
+
+                       <br>
+                          <p>Do you Have a taco Membership</p>
+                      
+                          <input type="radio" name = "Member" id = "yes" value = yes>
+                          <label for="Member">Yes</label>
+
+                          <input type="radio" name = "Member" id = "no" value = no>
+                          <label for="Member">No</label>
+                         <br>
+
+                       <button type="reset"> Reset</button>
+                       <button type="submit" formaction="https://httpbin.org/post" formmethod="post"> Submit</button>
+                       
+
+                 </fieldset>
+           </form>
+
+         </main>
+
+         <hr>
+
+         <footer>
+
+         </footer>
+
+    </body>
+</html>
